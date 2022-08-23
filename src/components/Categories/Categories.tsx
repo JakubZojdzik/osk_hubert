@@ -1,6 +1,3 @@
-// import './Categories.scss';
-
-
 export const Categories = () => {
     return (
         <table className='table'>
