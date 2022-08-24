@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 
 export const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg border-bottom mb-5">
+        <nav className="navbar navbar-expand-lg border-bottom">
             <Container>
                 <a className="navbar-brand ms-3 text-primary" href="/#">
                     osk HUBERT

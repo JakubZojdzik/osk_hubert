@@ -1,12 +1,18 @@
+import { Container } from 'react-bootstrap';
+import './Banner.scss';
+
 
 export const Banner = () => {
     return (
-        <article>
-            <div id="onas" className="naglowek">
-                <div>
-                    <h1 className="tytul">Ośrodek Szkolenia Kierowców "HUBERT"</h1>
-                </div>
-            </div> 
-        </article>
+        <div className="container-fluid img-bg d-flex align-items-center text-center">
+            <Container>
+                <h1 className="logo">Ośrodek Szkolenia Kierowców "HUBERT"</h1>
+                <p className="desc align-middle">
+                    w Lwówku Śląskim to firma z wieloletnim doświadczaniem.<br />
+                    Podczas naszej pracy zdobyliśmy renomę i zadowolenie kilku pokoleń kursantów,<br />
+                    którzy ceniąc sobie nasz profesjonalizm polecają nasze usługi.
+                </p>
+            </Container>
+        </div>
     )
 }
