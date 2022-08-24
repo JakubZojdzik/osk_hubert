@@ -1,0 +1,22 @@
+.naglowek
+{
+    padding-top: 150px;
+    text-align: center;
+    font-size: 1.3rem;
+    background-image: url("/public/img/bg_img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    min-height: 500px;
+
+    .napis
+    {
+        text-shadow: 2px -2px 7px #313131;
+        width: 75%;
+        margin: 0 auto;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
