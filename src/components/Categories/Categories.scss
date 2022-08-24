@@ -1,14 +1,8 @@
-.table {
-    td {
-        padding-bottom: 50px;
-        padding-top: 50px;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    td:first-child {
-        padding-left: 0;
-    }
-    td:last-child {
-        padding-right: 0;
-    }
+.categ {
+    font-size: 3em;
+    padding-bottom: 1rem;
+}
+
+.price {
+    font-size: 1.2em;
 }
