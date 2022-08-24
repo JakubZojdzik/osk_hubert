@@ -4,7 +4,7 @@ export const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg border-bottom mb-5">
             <div className="container-fluid">
-                <a className="navbar-brand ms-3" href="/#">osk HUBERT</a>
+                <a className="navbar-brand ms-3 text-primary" href="/#">osk HUBERT</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -17,7 +17,7 @@ export const Navbar = () => {
                             <a className="nav-link" href="/#">Oferta</a>
                         </li>
                         <li className="nav-item mx-3">
-                            <a className="nav-link" href="/#">Kategorie</a>
+                            <a className="nav-link" href="/#kategorie">Kategorie</a>
                         </li>
                         <li className="nav-item mx-3">
                             <a className="nav-link" href="/#">Kontakt</a>
