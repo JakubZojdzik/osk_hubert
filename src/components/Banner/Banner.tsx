@@ -4,7 +4,7 @@ import './Banner.scss';
 
 export const Banner = () => {
     return (
-        <div className="container-fluid img-bg d-flex align-items-center text-center">
+        <div className="container-fluid img-bg d-flex align-items-center text-center mb-5">
             <Container>
                 <h1 className="logo">Ośrodek Szkolenia Kierowców "HUBERT"</h1>
                 <p className="desc align-middle">

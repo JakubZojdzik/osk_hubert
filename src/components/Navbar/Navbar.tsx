@@ -2,10 +2,10 @@ import { Container } from "react-bootstrap";
 
 export const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg border-bottom">
+        <nav className="navbar sticky-top navbar-expand-lg border-bottom bg-white">
             <Container>
                 <a className="navbar-brand ms-3 text-primary" href="/#">
-                    osk HUBERT
+                    <b>osk HUBERT</b>
                 </a>
                 <button
                     className="navbar-toggler"
@@ -22,21 +22,21 @@ export const Navbar = () => {
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item mx-3">
                             <a className="nav-link" href="/#">
-                            Home
-                            </a>
-                        </li>
-                        <li className="nav-item mx-3">
-                            <a className="nav-link" href="/#">
-                            Oferta
+                            Start
                             </a>
                         </li>
                         <li className="nav-item mx-3">
                             <a className="nav-link" href="/#kategorie">
-                            Kategorie
+                            Oferta
                             </a>
                         </li>
                         <li className="nav-item mx-3">
-                            <a className="nav-link" href="/#">
+                            <a className="nav-link" href="/#start">
+                            Jak zacząć?
+                            </a>
+                        </li>
+                        <li className="nav-item mx-3">
+                            <a className="nav-link" href="/#kontakt">
                             Kontakt
                             </a>
                         </li>

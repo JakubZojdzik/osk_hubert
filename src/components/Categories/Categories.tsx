@@ -62,7 +62,7 @@ export const Categories = () => {
                         <li>motocykl o pojemności skokowej silnika do 125 cm3, mocy do 11 kW i stosunku mocy do masy własnej do 0,1 kW/kg</li>
                         <li>motocykl Row&oacute;jkołowy o mocy do 15 kW</li>
                         <li>pojazdy z kategorii AM</li>
-                        <li>zesp&oacute;ł pojazd&oacute;w &ndash; powyższe pojazdy połączone z przyc2zepą - tylko w Polsce</li>
+                        <li>zesp&oacute;ł pojazd&oacute;w &ndash; powyższe pojazdy połączone z przyczepą - tylko w Polsce</li>
                         <li>Wymagany wiek: <b>16 lat</b></li>
                     </ul>
                 </Col>
