@@ -1,6 +1,9 @@
+import './Categories.scss'
+
+
 export const Categories = () => {
     return (
-        <table className='table'>
+        <table id="kategorie" className='table'>
             <tbody>
                 <tr>
                     <td className="text-primary text-center align-middle fs-3">AM</td>
@@ -9,9 +12,10 @@ export const Categories = () => {
                             <li>motorower</li>
                             <li>czterokołowiec lekki (na przykład mały quad)</li>
                             <li>zesp&oacute;ł pojazd&oacute;w &ndash; powyższe pojazdy połączone z przyczepą &ndash; tylko w Polsce</li>
+                            <li>Wymagany wiek: 14 lat</li>
                         </ul>
                     </td>
-                    <td className="align-middle">14 lat</td>
+                    <td className="align-middle">1100 zł</td>
                 </tr>
                 <tr>
                     <td className="text-primary text-center align-middle fs-3">A1</td>
@@ -21,9 +25,10 @@ export const Categories = () => {
                             <li>motocykl tr&oacute;jkołowy o mocy do 15 kW</li>
                             <li>pojazdy z kategorii AM</li>
                             <li>zesp&oacute;ł pojazd&oacute;w &ndash; powyższe pojazdy połączone z przyc2zepą - tylko w Polsce</li>
+                            <li>Wymagany wiek: 16 lat</li>
                         </ul>
                     </td>
-                    <td className="align-middle">16 lat</td>
+                    <td className="align-middle">2000 zł</td>
                 </tr>
                 <tr>
                     <td className="text-primary text-center align-middle fs-3">A2</td>
@@ -39,9 +44,10 @@ export const Categories = () => {
                             <li>motocykl tr&oacute;jkołowy o mocy do 15 kW</li>
                             <li>pojazdy z kategorii AM</li>
                             <li>zesp&oacute;ł pojazd&oacute;w &ndash; powyższe pojazdy połączone z przyczepą &ndash; tylko w Polsce</li>
+                            <li>Wymagany wiek: 18 lat</li>
                         </ul>
                     </td>
-                    <td className="align-middle">18 lat</td>
+                    <td className="align-middle">2200 zł lub 1100 zł w przypadku posiadania prawa jazdy kategorii A1</td>
                 </tr>
                 <tr>
                     <td className="text-primary text-center align-middle fs-3">A</td>
@@ -50,10 +56,11 @@ export const Categories = () => {
                             <li>każdy motocykl</li>
                             <li>pojazd z kategorii AM</li>
                             <li>zesp&oacute;ł pojazd&oacute;w &ndash; powyższe pojazdy połączone z przyczepą &ndash; tylko w Polsce</li>
+                            <li>Wymagany wiek: 24 lata lub 20 lat jeśli&nbsp; masz &nbsp;już od co najmniej 2 lat prawo jazdy kategorii A2</li>
                         </ul>
                     </td>
                     <td className="align-middle">
-                        24 lata lub 20 lat jeśli&nbsp; masz &nbsp;już od co najmniej 2 lat prawo jazdy kategorii A2
+                        2200 zł lub 1100 zł w przypadku posiadania prawa jazdy kategorii A2
                     </td>
                 </tr>
                 <tr>
@@ -64,15 +71,13 @@ export const Categories = () => {
                             <li>zesp&oacute;ł pojazd&oacute;w &ndash; powyższy pojazd połączony z lekką przyczepą (o dopuszczalnej masie całkowitej do 750 kg)</li>
                             <li>pojazd z kategorii AM</li>
                             <li>zesp&oacute;ł pojazd&oacute;w &ndash; złożony z pojazdu samochodowego o dopuszczalnej masie całkowitej do 3,5 t (z wyjątkiem autobusu i motocykla) oraz przyczepy. Jednak łączna dopuszczalna masa całkowita całego zespołu nie może przekroczyć 3500 kg,</li>
-                            <li>jeśli zdasz dodatkowy egzamin praktyczny i masz dodatkowy wpis w prawie jazdy &ndash; zesp&oacute;ł pojazd&oacute;w złożony z pojazdu samochodowego o dopuszczalnej masie całkowitej do 3,5 t&nbsp;(z wyjątkiem autobusu i motocykla)&nbsp;oraz przyczepy. Jednak łączna dopuszczalna masa całkowita całego zespołu nie może przekroczyć 4250 kg</li>
                             <li>ciągnik rolniczy &ndash; tylko w Polsce</li>
                             <li>pojazd wolnobieżny (na przykład walec) &ndash; tylko w Polsce</li>
-                            <li>zesp&oacute;ł pojazd&oacute;w złożony z ciągnika rolniczego oraz lekkiej przyczepy (o dopuszczalnej masie całkowitej do 750 kg) &ndash; tylko w Polsce</li>
-                            <li>zesp&oacute;ł pojazd&oacute;w złożony z pojazdu wolnobieżnego oraz lekkiej przyczepy (o dopuszczalnej masie całkowitej do 750 kg) &ndash; tylko w Polsce</li>
                             <li>jeśli masz prawo jazdy kategorii B od co najmniej 3 lat - motocykl o pojemności skokowej silnika do 125 cm3, mocy do 11 kW i stosunku mocy do masy własnej do 0,1 kW/kg &ndash; tylko w Polsce</li>
+                            <li>Wymagany wiek: 18 lat</li>
                         </ul>
                     </td>
-                    <td className="align-middle">18 lat</td>
+                    <td className="align-middle">2400 zł</td>
                 </tr>
             </tbody>
         </table>

@@ -1,0 +1,14 @@
+.table {
+    td {
+        padding-bottom: 50px;
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    td:first-child {
+        padding-left: 0;
+    }
+    td:last-child {
+        padding-right: 0;
+    }
+}
