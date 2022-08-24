@@ -4,3 +4,4 @@ export * from './Banner';
 export * from './Instruction';
 export * from './Contact';
 export * from './Footer';
+export * from './Blob';
