@@ -19,7 +19,7 @@ export const Categories = () => {
                         <li>Wymagany wiek: <b>18 lat</b></li>
                     </ul>
                 </Col>
-                <Col lg={2} className="align-middle text-center price">2400 zł</Col>
+                <Col lg={2} className="align-middle text-center price">Cena kursu:<br />2400 zł</Col>
             </Row>
             <hr />
             <Row className="align-items-center py-5">
@@ -32,9 +32,7 @@ export const Categories = () => {
                         <li>Wymagany wiek: <b>24 lata lub 20 lat</b> jeśli&nbsp; masz &nbsp;już od co najmniej 2 lat prawo jazdy kategorii A2</li>
                     </ul>
                 </Col>
-                <Col lg={2} className="align-middle text-center price">
-                    2200 zł lub 1100 zł w przypadku posiadania prawa jazdy kategorii A2
-                </Col>
+                <Col lg={2} className="align-middle text-center price">Cena kursu:<br />2200 zł lub 1100 zł w przypadku posiadania prawa jazdy kategorii A2</Col>
             </Row>
             <hr />
             <Row className="align-items-center py-5">
@@ -54,7 +52,7 @@ export const Categories = () => {
                         <li>Wymagany wiek: <b>18 lat</b></li>
                     </ul>
                 </Col>
-                <Col lg={2} className="align-middle text-center price">2200 zł lub 1100 zł w przypadku posiadania prawa jazdy kategorii A1</Col>
+                <Col lg={2} className="align-middle text-center price">Cena kursu:<br />2200 zł lub 1100 zł w przypadku posiadania prawa jazdy kategorii A1</Col>
             </Row>
             <hr />
             <Row className="align-items-center py-5">
@@ -68,7 +66,7 @@ export const Categories = () => {
                         <li>Wymagany wiek: <b>16 lat</b></li>
                     </ul>
                 </Col>
-                <Col lg={2} className="align-middle text-center price">2000 zł</Col>
+                <Col lg={2} className="align-middle text-center price">Cena kursu:<br />2000 zł</Col>
             </Row>
             <hr />
             <Row className="align-items-center py-5">
@@ -81,7 +79,7 @@ export const Categories = () => {
                         <li>Wymagany wiek: <b>14 lat</b></li>
                     </ul>
                 </Col>
-                <Col lg={2} className="align-middle text-center price">1100 zł</Col>
+                <Col lg={2} className="align-middle text-center price">Cena kursu:<br />1100 zł</Col>
             </Row>
         </Container>
     );
