@@ -1,7 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
 $theme-colors: (
     "primary": #AD2628,
     "danger": #3f5fd2
 );
 
+Container {
+    background-color: white;
+}
 
 @import '~bootstrap/scss/bootstrap.scss';
