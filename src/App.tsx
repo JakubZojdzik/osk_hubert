@@ -1,5 +1,5 @@
 import React from "react";
-import { Banner, Blob, Categories, Contact, Footer, Instructions, Navbar } from "./components";
+import { Banner, Blob, Break, Categories, Contact, Footer, Instructions, Navbar } from "./components";
 
 function App() {
     return (
@@ -8,6 +8,7 @@ function App() {
             <Banner />
             <Blob />
             <Categories />
+            <Break />
             <Instructions />
             <Contact />
             <Footer />
